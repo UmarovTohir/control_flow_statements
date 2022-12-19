@@ -6,5 +6,13 @@
         a: integer
     Returns:
         a: a increased by 1 if positive, else decreased by 2.*/
-
-void main() {}
+int func(int number){
+  {
+    if(number>0);
+    return number+1;
+  }
+  return-2;
+}
+void main() {
+  print(func(1));
+}

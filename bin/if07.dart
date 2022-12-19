@@ -5,10 +5,26 @@
     "positive odd number",
     "positive even number",
     "negative odd number",
-    "negative even number",
+    "negative odd number",
     "the number is zero"
     Args:
         a: integer
     Returns:
         string: the message to print */
-void main() {}
+
+        String  func(int number){
+          if(number > 0 && number%2==1){
+          return "positive odd number";
+          } return "positive even number";
+          if(number < 0 && number%2==1){
+           return "negative odd number";
+          } "negative odd number";
+          if(number==0){
+            return "the number is zero";
+          }
+          }
+          
+        
+void main() {
+  print (func(34));
+}
